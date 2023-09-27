@@ -16,6 +16,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
 }
 
 h1,
@@ -54,7 +55,8 @@ ol {
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: end;
-  margin: 133px 30px 0;
+  place-self: center;
+  margin-inline: 30px;
   gap: 30px;
 }
 
